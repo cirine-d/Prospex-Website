@@ -4,7 +4,7 @@
 
 .App-header {
   background-color: #282c34;
-  background-image: url(./images/coverPic.jpg);
+  background-image: url(../images/coverPic.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   top: 0;
@@ -28,10 +28,4 @@
   font-size: 50px;
   font-weight: 600;
   color: white;
-}
-
-.Home-statement {
-  padding-top: 300px;
-  font-size: 40px;
-  font-weight: 600;
 }
