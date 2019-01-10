@@ -22,26 +22,44 @@
   </head>
 
   <body>
-    <header class="container-fluid">
-      <section id="mission-statement" class="mission-statement">
-        <img alt="logo" src="../images/prospex-logo.png" />
-        <hr />
-        <p>Realising young people's potential</p>
-      </section  id="navbar" class="navbar">
-      <h1>Prospex</h1>
-      <nav >
-        <ul class="nav">
-          <li class="nav-link active">
-            <a href="programme.html" title="Our programmes"> Programmes </a>
-          </li>
-          <li class="nav-link active">
-            <a href="donate.html" title="Donate"> Donate </a>
-          </li>
-          <li class="nav-link active">
-            <a href="blog.html" title="Read our Blog"> Blog </a>
-          </li>
-        </ul>
-      </nav>
+    <header>
+      <section class="img-row">
+        <img alt="img-row-1" src="../images/safetyhats.jpg" />
+        <img alt="img-row-2" src="../images/woodwalk.jpg" />
+        <img alt="img-row-3" src="../images/orangegroup.jpg" />
+        <img alt="img-row-4" src="../images/kayaks.jpg" />
+      </section>
+      <section class="title-row">
+        <img alt="logo" src="https://www.prospex.org.uk/images/prospex.png" />
+      </section>
+      <section class="img-row">
+        <img alt="img-row-5" src="../images/archery.jpg" />
+        <img alt="img-row-6" src="../images/groupphoto.jpg" />
+        <img alt="img-row-7" src="../images/sky.jpg" />
+        <img alt="img-row-8" src="../images/facepaint.jpg" />
+      </section>
+      <section id="navbar" class="navbar">
+        <nav>
+          <ul class="nav">
+            <li>
+              <a href="programme.html" title="Our programmes">
+                The Challenge
+              </a>
+            </li>
+            <li>
+              <a href="programme.html" title="Our programmes"> What we do </a>
+            </li>
+            <li>
+              <a href="programme.html" title="Our programmes">
+                Why we're different
+              </a>
+            </li>
+            <li><a href="donate.html" title="Donate"> Donate </a></li>
+            <li><a href="blog.html" title="Read our Blog"> Blog </a></li>
+            <li><a href="blog.html" title="Read our Blog"> More </a></li>
+          </ul>
+        </nav>
+      </section>
     </header>
     <hr />
     <main class="container-fluid">
@@ -166,20 +184,23 @@
       <a class="btn btn-primary" href="#fundraising"> Donate Now </a>
     </footer> -->
     <script>
-      window.onscroll = function() {
-        scrollFunction();
-      };
+      // window.onscroll = function() {
+      //   scrollFunction();
+      // };
 
-      function scrollFunction() {
-        if (
-          document.body.scrollTop > 50 ||
-          document.documentElement.scrollTop > 50
-        ) {
-          document.getElementById("navbar").style.display = "block";
-        } else {
-          document.getElementById("navbar").style.display = "none";
-        }
-      }
+      // function scrollFunction() {
+      //   window.onload = function(){
+      //     if (
+      //     document.body.scrollTop > 50 ||
+      //     document.documentElement.scrollTop > 50
+      //   ) {
+      //     document.getElementById("navbar").style.display = "block";
+      //   } else {
+      //     document.getElementById("navbar").style.display = "none";
+      //   }
+      //     }
+
+      // }
     </script>
   </body>
 </html>
