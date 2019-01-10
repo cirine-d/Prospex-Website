@@ -1,0 +1,22 @@
+.navbar {
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+}
+
+.mission-statement {
+  background-image: url(../images/coverPic.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: 0;
+  text-align: center;
+  min-height: 100vh;
+}
+
+.footer {
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  padding: 2vh;
+  background-color: rgb(0, 0, 0, 0.5);
+}
