@@ -105,25 +105,77 @@ header h3 {
 
 #programmes {
   background-color: rgb(255, 111, 0, 1);
-  padding-left: 10vw;
+  display: flex;
+}
+
+#programmes ul {
+  display: flex;
+  max-width: 40vw;
+  min-height: 75vh;
+  padding: 0;
+  margin-bottom: 0;
+}
+
+#programmes h2 {
+  color: rgb(255, 111, 0, 1);
+  font-size: 15vh;
+}
+
+#programmes div {
+  min-width: 15vw;
+  transition: 0.3s min-width;
+  word-wrap: break-word;
+}
+
+#programmes div:hover {
+  min-width: 25vw;
+}
+
+#programmes div:hover h2 {
+  color: black;
+  font-size: 5vh;
 }
 
 .street-teams {
   background-image: url(../images/safetyhats.jpg);
+  filter: brightness(30%);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.street-teams:hover {
+  filter: brightness(100%);
 }
 
 .youth-club {
   background-image: url(../images/groupphoto.jpg);
+  filter: brightness(30%);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.youth-club:hover {
+  filter: brightness(100%);
 }
 
 .one-to-one {
   background-image: url(../images/one2one.jpg);
+  filter: brightness(30%);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.one-to-one:hover {
+  filter: brightness(100%);
+}
+
+.programme-description {
+  min-width: 55vw;
+  padding: 5vw;
 }
 
 .footer {
   text-align: center;
-  position: fixed;
-  bottom: 0;
   padding: 2vh;
   background-color: rgb(0, 0, 0, 0.5);
 }
