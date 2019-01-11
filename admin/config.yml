@@ -9,6 +9,6 @@ collections:
       label: "Post",
       folder: "_posts",
       filter: { field: language, value: en },
-      fields: [{ label: "Language", name: "language" }],
+      fields: [{ label: "Description", name: "description", widget: "text" }],
     },
   ]
