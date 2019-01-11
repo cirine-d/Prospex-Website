@@ -7,8 +7,8 @@ collections:
     {
       name: "posts",
       label: "Post",
-      folder: "_posts",
+      folder: "/text",
       filter: { field: language, value: en },
-      fields: [{ label: "Description", name: "description", widget: "text" }],
+      fields: [{ label: "Description", name: "description", widget: "string" }],
     },
   ]
