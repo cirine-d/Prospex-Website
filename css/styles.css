@@ -177,6 +177,30 @@ header h3 {
   padding: 5vw;
 }
 
+#our-difference {
+  text-align: center;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+  margin-left: 30vh;
+  margin-right: 30vh;
+}
+
+#our-difference div {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(../images/orangegroup.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  word-wrap: break-word;
+  padding: 10vh;
+  margin-left: 20vw;
+  margin-right: 20vw;
+}
+
+#our-difference h2 {
+  color: rgb(255, 111, 0, 1);
+  font-size: 3vh;
+}
+
 .footer {
   text-align: center;
   padding: 2vh;
