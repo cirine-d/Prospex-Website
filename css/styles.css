@@ -106,6 +106,7 @@ header h3 {
 #programmes {
   background-color: rgb(255, 111, 0, 1);
   display: flex;
+  overflow: hidden;
 }
 
 #programmes ul {
@@ -132,41 +133,43 @@ header h3 {
 }
 
 #programmes div:hover h2 {
-  color: black;
-  font-size: 5vh;
+  font-size: 10vh;
 }
 
 .street-teams {
-  background-image: url(../images/safetyhats.jpg);
-  filter: brightness(30%);
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../images/safetyhats.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .street-teams:hover {
-  filter: brightness(100%);
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../images/safetyhats.jpg);
 }
 
 .youth-club {
-  background-image: url(../images/groupphoto.jpg);
-  filter: brightness(30%);
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../images/groupphoto.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .youth-club:hover {
-  filter: brightness(100%);
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../images/groupphoto.jpg);
 }
 
 .one-to-one {
-  background-image: url(../images/one2one.jpg);
-  filter: brightness(30%);
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../images/one2one.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .one-to-one:hover {
-  filter: brightness(100%);
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../images/one2one.jpg);
 }
 
 .programme-description {
