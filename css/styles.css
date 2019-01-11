@@ -190,10 +190,20 @@ header h3 {
     url(../images/orangegroup.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position-y: center;
   word-wrap: break-word;
   padding: 10vh;
   margin-left: 20vw;
   margin-right: 20vw;
+  transition: 0.3s background;
+}
+
+#our-difference div:hover {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/orangegroup.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: center;
 }
 
 #our-difference h2 {
